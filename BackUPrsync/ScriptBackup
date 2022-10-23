@@ -1,0 +1,107 @@
+#!/bin/bash
+
+ 	esc="" # si esto no funciona probar "^[" que es ctrl+v+ESC
+ 
+    negro="${esc}[30m"
+    rojo="${esc}[31m"
+    verde="${esc}[32m"
+    amarillo="${esc}[33m"
+    azul="${esc}[34m"
+    rosa="${esc}[35m"
+    cyan="${esc}[36m"
+    blanco="${esc}[37m"
+ 
+    f_negro="${esc}[40m"
+    f_rojo="${esc}[41m"
+    f_verde="${esc}[42m"
+    f_amarllo="${esc}[43m"
+    f_azul="${esc}[44m"
+    f_rosa="${esc}[45m"
+    f_cyan="${esc}[46m"
+    f_blanco="${esc}[47m"
+ 
+    negrita="${esc}[1m"
+    q_negrita="${esc}[22m"
+    italica="${esc}[3m"
+    q_italica="${esc}[23m"
+    subrayado="${esc}[4m"
+    q_subrayado="${esc}[24m"
+    inverso="${esc}[7m"
+    q_inverso="${esc}[27m"
+ 
+    reset="${esc}[0m"
+ 
+    function BackUp()
+    {
+    	verificarPaquete
+    	if [[ !($estado) ]]; then
+    		echo -e "$amarillo[!]$reset$negrita Paquete$rojo sshpass no instalado$reset,$negrita$amarillo es necesario para continuar...$reset$negrita$blanco ¿Desea instalarlo yes/no?..$reset\c "
+    		read respuesta
+    		if [[ ($respuesta == yes) || ($respuesta == y) ]]; then
+    		 	installsshpass
+    		 else
+    		 	echo -e "$rojo Si no se instala el paquete sshpass no podemos continuar...$reset"
+    		 	exit 0 	
+    		 fi 
+    	fi
+    	
+
+    	echo -e "Este es el asistente para la creacion de backups, a continuacion le pediremos los datos necesarios para la creacion del backup:"
+		seleccionarTipo
+
+		echo -e "Escriba la ruta donde quiere guardar el BackUp [Ejemplo: /backupServidor]\c"
+    	read rutadestino;
+
+    	#read tipobackup;
+
+
+		#sshpass -p 'fran' rsync -ar remote fran@192.168.18.113:/home/fran/ 
+
+
+
+    }
+    function backupLocal(){
+    	echo -e "$negrita$verde Escriba la ruta donde quiere guardar el BackUp localmente$reset$negrita$rosa [Ejemplo: /backupServidor]\n$reset $rojo## nota:debera tener permisos de escritura para que el programa no de un error ##\n$reset$amarillo$negrita Escriba su ruta:$reset$verde$negrita \c$reset"
+    	read rutadestino;
+    }
+    function backupRemoto(){
+		echo -e "Escriba la ruta donde quiere guardar el BackUp [Ejemplo: /backupServidor]\c"
+    	read rutadestino;
+
+    }
+
+    function seleccionarTipo()
+    {
+    	echo -e "Escriba que destido del BackUp [Local=l / Remoto=r]\c->"
+		read tipobackup
+		case $tipobackup in
+			r) backupRemoto
+				;;
+			l) backupLocal
+				;;
+			*) 
+				echo -e "El parametro seleccionado no es correcto vuelva a seleccionar uno de los admitidos por el programa... [puede cancelar con ctrl+c]"
+				seleccionarTipo
+				;;
+		esac
+    }
+    function installsshpass(){
+
+    	apt install sshpass 2>error 1>log
+    	error=$(cat error |grep -vi "Warning")
+    	log=$(cat log)
+
+    	echo "$rojo$error$reset"
+    	echo "$verde$negrita$log"
+
+    	rm -rf error
+    	rm -rf log
+    	
+    }
+    function verificarPaquete(){
+
+    	 estado=$(dpkg -l |grep sshpass | awk '{print $2}')
+    }
+    #installsshpass
+    #verificarPaquete
+    BackUp
