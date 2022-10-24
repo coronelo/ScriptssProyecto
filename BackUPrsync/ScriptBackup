@@ -45,12 +45,9 @@
     		 fi 
     	fi
     	
-
-    	echo -e "Este es el asistente para la creacion de backups, a continuacion le pediremos los datos necesarios para la creacion del backup:"
+    	echo -e "$amarillo$negrita [!]$reset$verde$negrita Este es el asistente para la creacion de backups, a continuacion le pediremos los datos necesarios para la creacion del backup:$reset"
 		seleccionarTipo
 
-		echo -e "Escriba la ruta donde quiere guardar el BackUp [Ejemplo: /backupServidor]\c"
-    	read rutadestino;
 
     	#read tipobackup;
 
@@ -61,18 +58,25 @@
 
     }
     function backupLocal(){
-    	echo -e "$negrita$verde Escriba la ruta donde quiere guardar el BackUp localmente$reset$negrita$rosa [Ejemplo: /backupServidor]\n$reset $rojo## nota:debera tener permisos de escritura para que el programa no de un error ##\n$reset$amarillo$negrita Escriba su ruta:$reset$verde$negrita \c$reset"
-    	read rutadestino;
+    	nombreServidor="$(hostname)"
+    	rsync -a --progress --exclude={"/mnt/*","swap.img","/proc/*","/tmp/*","/sys/*","/run/*","/lost+found"} / /backup_$nombreServidor
+
+    	#-exclude={"/dev/*","/proc/*","/sys/*","/tmp/*","/run/*","/mnt/*","/media/*","/lost+found"}
     }
     function backupRemoto(){
-		echo -e "Escriba la ruta donde quiere guardar el BackUp [Ejemplo: /backupServidor]\c"
-    	read rutadestino;
+		nombreServidor="$(hostname)"
+    	
+    	echo -e "$negrita$amarillo Escriba usuario del servicio remoto y IP $reset$rosa[ejemplo:fran@192.168.18.10]:$reset$verde\c $reset"
+    	read direccion;
+    	echo -e "$negrita$amarillo Escriba la contraseña:\c$reset$rosa";
+    	read cont;
+    	sshpass -p "$cont" rsync -a --progress --exclude={"/proc/*","/tmp/*","/lost+found"} / "$direccion:~/backup_$nombreServidor $reset"
 
     }
 
     function seleccionarTipo()
     {
-    	echo -e "Escriba que destido del BackUp [Local=l / Remoto=r]\c->"
+    	echo -e "\t\t$amarillo$negrita####$reset$negrita$verde Escriba que destido del BackUp [$reset$azul$negrita Local=l$reset $negrita$verde / $reset $rosa$negrita Remoto=r$reset$negrita$verde]####->$reset\c"
 		read tipobackup
 		case $tipobackup in
 			r) backupRemoto
