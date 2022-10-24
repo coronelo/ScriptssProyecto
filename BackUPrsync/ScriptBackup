@@ -30,6 +30,12 @@
     q_inverso="${esc}[27m"
  
     reset="${esc}[0m"
+
+    trap ctrl_c INT
+    function Crtl_c()
+    {
+    	echo -e "$negrita$rojo Se ha cancelado el script,vuelva a internarlo$reset"
+    }
  
     function BackUp()
     {
@@ -69,14 +75,14 @@
     	echo -e "$negrita$amarillo Escriba usuario del servicio remoto y IP $reset$rosa[ejemplo:fran@192.168.18.10]:$reset$verde\c $reset"
     	read direccion;
     	echo -e "$negrita$amarillo Escriba la contraseña:\c$reset$rosa";
-    	read cont;
+    	read -s cont;
     	sshpass -p "$cont" rsync -a --progress --exclude={"/proc/*","/tmp/*","/lost+found"} / "$direccion:~/backup_$nombreServidor $reset"
 
     }
 
     function seleccionarTipo()
     {
-    	echo -e "\t\t$amarillo$negrita####$reset$negrita$verde Escriba que destido del BackUp [$reset$azul$negrita Local=l$reset $negrita$verde / $reset $rosa$negrita Remoto=r$reset$negrita$verde]####->$reset\c"
+    	echo -e "\t\t$amarillo$negrita####$reset$negrita$verde Escriba que el destido del BackUp [$reset$azul$negrita Local=l$reset $negrita$verde / $reset $rosa$negrita Remoto=r$reset$negrita$verde]####->$reset\c"
 		read tipobackup
 		case $tipobackup in
 			r) backupRemoto
@@ -108,4 +114,11 @@
     }
     #installsshpass
     #verificarPaquete
-    BackUp
+
+   if [[ $(id -u) = 0 ]]; then
+    	BackUp
+   else
+   		echo -e "$rojo Este script se debe iniciar como root, pruebe con sudo y el nombre del script$reset"
+		exit 0
+   fi
+

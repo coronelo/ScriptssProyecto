@@ -33,12 +33,21 @@ esc="" # si esto no funciona probar "^[" que es ctrl+v+ESC
 
 function actualizar(){
 
+if [[ $(id -u) = 0 ]]; then
 	echo -e "$verde$negrita Actualizando el sistema... $reset" 
+	apt autoremove
+	apt autoclean
+	apt autopurge
 	if [[ !(-d /Actualizaciones) ]]; then
 		mkdir /Actualizaciones	
 	fi
 	apt update -y 1>/Actualizaciones/logupdate 2>/Actualizaciones/erroresupdate
 	apt upgrade -y 1>/Actualizaciones/logupgrade 2>/Actualizaciones/errorupgrade
 	echo -e "$rosa$negrita ACTUALIZACION FINALIZADA $reset" 
+	exit 1
+else
+	echo -e "$rojo Este script se debe iniciar como root, pruebe con sudo y el nombre del script$reset"
+	exit 0
+fi
 }
 actualizar
