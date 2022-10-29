@@ -30,15 +30,42 @@
  
     reset="${esc}[0m"
 
-echo -e "\t\t\t${amarillo}[!]${reset} ${rojo}${negrita}PROYECTO DE:${reset}"
+
+
+
+
+
+
+echo "$rojo  ######   ######    #####   ### ###  #######   #####   #######   #####            #### ##   #####    ##### ";
+echo "  ### ###  ### ###  ### ###  ### ###  # ##     # # ###    ###    ### ###           #### ##  ### ###  ### ### ";
+echo "  ### ###  ### ###  ### ###   #####   ######   ###        ###    ### ###           #######  ### ###   ### ";
+echo "  ######   ######   ### ###    ###    ####     ###        ###    ### ###           #######  ### ###     ### ";
+echo "  ###      ### ###  #######    ###    ####     ### ###    ###    #######           ### ###  #######  ### ### ";
+echo "  ###      ### ###   #####     ###    #######    ####     ###     #####            ### ###   #####    ##### $reset";
+
+
+
+
+
+echo -e "$f_amarllo$verde$negrita$titulo$reset"
 sleep 0.5
-echo -e "${azul}${negrita}${italica}			LUCIA ORTEGA RODRIGUEZ	${reset}"
+echo -e "${amarillo}[!]${reset} ${rojo}${negrita}LISTA DE TECNICOS:${reset}"
 sleep 0.5
-echo -e "${verde}${negrita}${italica}			JAVIER RODRIGUEZ PARRA	${reset}"
+echo -e "${azul}${negrita}${italica}[LUCIA ORTEGA RODRIGUEZ]${reset}"
 sleep 0.5
-echo -e "${amarillo}${negrita}${italica}			FRANCISCO MORENO RODRIGO	${reset}"
+echo -e "${verde}${negrita}${italica}[JAVIER RODRIGUEZ PARRA]${reset}"
 sleep 0.5
+echo -e "${amarillo}${negrita}${italica}[FRANCISCO MORENO RODRIGO]${reset}\n"
+sleep 0.5
+echo -e "${cyan}${negrita}${italica}#######################################################${reset}"
 echo -e "${cyan}${negrita}${italica}############### Ultimas Actualizaciones ###############${reset}"
+echo -e "${cyan}${negrita}${italica}#######################################################${reset}"
+
 logupgrade=$(cat /Actualizaciones/logupgrade |tail -n 1)
 sleep 0.5
-echo -e "$f_azul $logupgrade$reset"
+echo -e "\n$f_rosa $logupgrade$reset"
+
+usuario=$(whoami)
+hostname=$(hostname)
+
+#echo -e "\n$f_azul$negrita BIENVENIDO A $amarillo$negrita## $hostname ##$negrita $verde## $usuario ##$reset"
