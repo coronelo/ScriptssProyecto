@@ -34,10 +34,10 @@ esc="" # si esto no funciona probar "^[" que es ctrl+v+ESC
 function actualizar(){
 
 if [[ $(id -u) = 0 ]]; then
-	echo -e "$verde$negrita Actualizando el sistema... $reset" 
-	apt autoremove
-	apt autoclean
-	apt autopurge
+	echo -e "$verde$negrita Actualizando el sistema... $reset$verde" 
+	apt autoremove -y
+	apt autoclean -y
+	apt autopurge -y
 	if [[ !(-d /Actualizaciones) ]]; then
 		mkdir /Actualizaciones	
 	fi

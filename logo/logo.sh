@@ -37,3 +37,8 @@ sleep 0.5
 echo -e "${verde}${negrita}${italica}			JAVIER RODRIGUEZ PARRA	${reset}"
 sleep 0.5
 echo -e "${amarillo}${negrita}${italica}			FRANCISCO MORENO RODRIGO	${reset}"
+sleep 0.5
+echo -e "${cyan}${negrita}${italica}############### Ultimas Actualizaciones ###############${reset}"
+logupgrade=$(cat /Actualizaciones/logupgrade |tail -n 1)
+sleep 0.5
+echo -e "$f_azul $logupgrade$reset"
