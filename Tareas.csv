@@ -1,0 +1,27 @@
+﻿Tarea;Técnico;Documentación;Estado
+Configurar RAID servidor;Javi;Documentación;Terminada
+Instalar Ubuntu servidor;Lucia;Documentación;Terminada
+Instalar ssh;Lucia;Documentación;Terminada
+Actualizar servidor;Lucia;Documentación;Terminada
+Configuración fecha y hora;Lucia;Documentación;Terminada
+Fijar IP servidor;Lucia;Documentación;Terminada
+Configurar nombre del host;Lucia;Documentación;Terminada
+Instalar GUI ligero;Lucia;Documentación;Terminada
+Programar tarea apagado automático;Fran;Documentación;Terminada
+Activar usuario root;Fran;Documentación;Terminada
+Instalar virtualbox;Javi;Documentación;Terminada
+Instalar Maquina ubuntu server;Javi;Documentación;Terminada
+Instalar Maquina Windows server;Fran;;Pendiente
+Agregar 3 usuarios para los técnicos con permisos;Lucia;Documentación;Terminada
+Configuración ssh para limitar tiempo de inactividad y máximo de usuarios simultáneos;Fran;Documentación;Terminada
+Configurar wake-on-lan;Fran;;Pendiente
+Crear imagen clonezilla;Javi;;Pendiente
+Configurar SSH para entorno gráfico;Fran;Documentación;Terminada
+Scripts Actualizacion;Fran;;Pendiente
+Configuración del LVM;Javi;Documentación;Terminada
+Caducidad de cuenta y contraseña en próximo login de usuarios;Lucia;Documentación;Terminada
+Sistema de ficheros;Sin asignar;;Pendiente
+Script para backups;Fran;;En Proceso
+Instalación y configuración de xRDP;Lucia;Documentación;Terminada
+Crear grupo para tecnicos;Lucia;Documentación;Pendiente
+Link al manual del servidor;;;
