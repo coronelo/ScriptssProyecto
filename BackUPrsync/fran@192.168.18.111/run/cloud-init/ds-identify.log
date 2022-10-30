@@ -1,0 +1,31 @@
+[up 4.11s] ds-identify 
+policy loaded: mode=enabled report=false found=all maybe=all notfound=disabled
+/etc/cloud/cloud.cfg.d/99-installer.cfg set datasource_list: 
+no datasource_list found, using default: MAAS ConfigDrive NoCloud AltCloud Azure Bigstep CloudSigma CloudStack DigitalOcean Vultr AliYun Ec2 GCE OpenNebula OpenStack OVF SmartOS Scaleway Hetzner IBMCloud Oracle Exoscale RbxCloud UpCloud VMware LXD
+DMI_PRODUCT_NAME=VirtualBox
+DMI_SYS_VENDOR=innotek GmbH
+DMI_PRODUCT_SERIAL=0
+DMI_PRODUCT_UUID=8cfe647e-d879-1d45-abc8-2ac12a776adb
+PID_1_PRODUCT_NAME=unavailable
+DMI_CHASSIS_ASSET_TAG=
+DMI_BOARD_NAME=VirtualBox
+FS_LABELS=
+ISO9660_DEVS=
+KERNEL_CMDLINE=BOOT_IMAGE=/vmlinuz-5.4.0-131-generic root=/dev/mapper/ubuntu--vg-ubuntu--lv ro maybe-ubiquity
+VIRT=oracle
+UNAME_KERNEL_NAME=Linux
+UNAME_KERNEL_RELEASE=5.4.0-131-generic
+UNAME_KERNEL_VERSION=#147-Ubuntu SMP Fri Oct 14 17:07:22 UTC 2022
+UNAME_MACHINE=x86_64
+UNAME_NODENAME=madrid
+UNAME_OPERATING_SYSTEM=GNU/Linux
+DSNAME=
+DSLIST=MAAS ConfigDrive NoCloud AltCloud Azure Bigstep CloudSigma CloudStack DigitalOcean Vultr AliYun Ec2 GCE OpenNebula OpenStack OVF SmartOS Scaleway Hetzner IBMCloud Oracle Exoscale RbxCloud UpCloud VMware LXD
+MODE=enabled
+ON_FOUND=all
+ON_MAYBE=all
+ON_NOTFOUND=disabled
+pid=345 ppid=324
+is_container=false
+mode=enabled. returning 0
+[up 4.22s] returning 0

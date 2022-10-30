@@ -1,0 +1,19 @@
+# This is private data. Do not parse.
+UID=1001
+USER=fran
+ACTIVE=1
+IS_DISPLAY=1
+STATE=active
+REMOTE=0
+TYPE=x11
+CLASS=user
+SCOPE=session-3.scope
+FIFO=/run/systemd/sessions/3.ref
+SEAT=seat0
+DISPLAY=:0
+SERVICE=sddm
+VTNR=1
+LEADER=1243
+AUDIT=3
+REALTIME=1667119364726096
+MONOTONIC=454429171

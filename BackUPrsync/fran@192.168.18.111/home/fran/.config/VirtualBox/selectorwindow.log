@@ -1,0 +1,17 @@
+00:00:00.326442 VirtualBox GUI VM Selector Window 6.1.38_Ubuntu r153438 linux.amd64 (Sep  7 2022 11:18:57) release log
+00:00:00.326443 Log opened 2022-10-29T19:01:46.764160000Z
+00:00:00.326444 Build Type: release
+00:00:00.326449 OS Product: Linux
+00:00:00.326449 OS Release: 5.4.0-131-generic
+00:00:00.326450 OS Version: #147-Ubuntu SMP Fri Oct 14 17:07:22 UTC 2022
+00:00:00.326478 DMI Product Name: VirtualBox
+00:00:00.326483 DMI Product Version: 1.2
+00:00:00.326499 Firmware type: BIOS
+00:00:00.326535 Host RAM: 3932MB (3.8GB) total, 3439MB (3.3GB) available
+00:00:00.326539 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.326540 Process ID: 11824
+00:00:00.326540 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.326567 Qt version: 5.12.8
+00:00:00.343470 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.740175 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x943
+00:00:00.883461 GUI: UIMediumEnumerator: Medium-enumeration finished!

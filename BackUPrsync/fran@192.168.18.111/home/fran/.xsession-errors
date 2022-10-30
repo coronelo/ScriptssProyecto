@@ -1,0 +1,435 @@
+Xsession: X session started for fran at Sat 29 Oct 2022 06:20:37 PM UTC
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+localuser:fran being added to access control list
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-Lubuntu:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting DESKTOP_SESSION=Lubuntu
+dbus-update-activation-environment: setting PWD=/home/fran
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=
+dbus-update-activation-environment: setting LOGNAME=fran
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+dbus-update-activation-environment: setting HOME=/home/fran
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=fran
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1001
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+(0x7fffe7861070) Debug: New PolkitAgentListener  0x56511bb2ca00
+(0x7fffe7861070) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fffe7861080) for  0x56511bb2ca00
+isPrimaryInstance
+(0x7ffc68357f30) Warning: Icon theme "elementary" not found.
+(0x7ffc68357f30) Warning: Icon theme "gnome" not found.
+(0x7ffc68357f30) Debug: XdgDesktopFile "/usr/share/applications/firefox.desktop" is not valid
+no cached wallpaper. generate a new one!
+(0x7ffd5b702900) Warning: Icon theme "elementary" not found.
+(0x7ffd5b702900) Warning: Icon theme "gnome" not found.
+(0x7ffd5b702900) Debug: systemd: "CanHibernate" = "no"
+(0x7ffd5b702900) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+(0x7ffd5b702900) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+(0x7ffd5b702900) Debug: systemd: "CanSuspend" = "yes"
+(0x7ffef0b75230) Debug: systemd: "CanReboot" = "yes"
+(0x7ffef0b75230) Debug: systemd: "CanPowerOff" = "yes"
+size of original image QSize(2560, 1600)
+(0x7ffc68357f30) Debug: ()
+(0x7ffc68357f30) Debug: WinIdChange 1000008 handle QWidgetWindow(0x55e92c47b080, name="LXQtPanel panel1Window") QScreen(0x55e92c238d20, name="Virtual-1")
+(0x7ffc68357f30) Debug: Systray started
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+wallpaper cached saved to  "/home/fran/.cache/pcmanfm-qt/lxqt/wallpaper.cache"
+(0x7ffff675a250) Warning: Icon theme "elementary" not found.
+(0x7ffff675a250) Warning: Icon theme "gnome" not found.
+(0x7fff1376ccf0) Warning: Icon theme "elementary" not found.
+(0x7fff1376ccf0) Warning: Icon theme "gnome" not found.
+(0x7fff1376ccf0) Debug: BatteryChanged discharging: true chargeLevel: nan actionTime: QTime(Invalid)
+(0x7fff1376ccf0) Debug: Inhibit got: 23
+(0x7fff1376ccf0) Debug: Starting idlenesswatcher
+(0x7ffc68357f30) Debug: Unknown property margin-button
+(0x7ffc68357f30) Debug: Unknown property margin-button
+(0x7ffc68357f30) Debug: Unknown property margin-button
+[Notice] Started
+operation finished: 0x0
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+delete MountOperation
+Properties constructor called
+TRANSLATIONS_DIR: Loading translation file "qterminal_en_US.qm" from dir /usr/share/qterminal/translations
+load success: false
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+QDir::exists: Empty or null file name
+Canot open file "/home/fran/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/Lubuntu"
+Trying to load translation file from dir "/usr/local/share"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/var/lib/snapd/desktop"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+default KB_LAYOUT_DIR:  "/usr/share/qtermwidget5/kb-layouts"
+loadAllColorSchemes
+Shell program: "/bin/bash"
+("/bin/bash")
+aboutToQuit
+(0x7ffc68357f30) Warning: The X11 connection broke: I/O error (code 1)
+XIO:  fatal IO error 25 (Inappropriate ioctl for device) on X server ":0"
+      after 1264 requests (796 known processed) with 0 events remaining.
+Xsession: X session started for fran at Sat 29 Oct 2022 06:25:13 PM UTC
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+localuser:fran being added to access control list
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-Lubuntu:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session2
+dbus-update-activation-environment: setting DESKTOP_SESSION=Lubuntu
+dbus-update-activation-environment: setting PWD=/home/fran
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=
+dbus-update-activation-environment: setting LOGNAME=fran
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+dbus-update-activation-environment: setting HOME=/home/fran
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=fran
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1001
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+(0x7fff43ce5cb0) Debug: New PolkitAgentListener  0x55c1e39fe000
+(0x7fff43ce5cb0) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fff43ce5cc0) for  0x55c1e39fe000
+isPrimaryInstance
+(0x7ffc8ae19d90) Warning: Icon theme "elementary" not found.
+(0x7ffc8ae19d90) Warning: Icon theme "gnome" not found.
+(0x7ffc8ae19d90) Debug: XdgDesktopFile "/usr/share/applications/firefox.desktop" is not valid
+size of cached file QSize(800, 600) , requiredSize: QSize(800, 600)
+origin "/usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png"
+(0x7ffeb6cf2cb0) Warning: Icon theme "elementary" not found.
+(0x7ffeb6cf2cb0) Warning: Icon theme "gnome" not found.
+(0x7ffeb6cf2cb0) Debug: systemd: "CanHibernate" = "no"
+(0x7ffeb6cf2cb0) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+(0x7ffeb6cf2cb0) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+(0x7ffeb6cf2cb0) Debug: systemd: "CanSuspend" = "yes"
+(0x7ffec27b85d0) Debug: systemd: "CanReboot" = "yes"
+(0x7ffec27b85d0) Debug: systemd: "CanPowerOff" = "yes"
+(0x7ffc8ae19d90) Debug: ()
+(0x7ffc8ae19d90) Debug: WinIdChange 1800008 handle QWidgetWindow(0x55c24d2ba760, name="LXQtPanel panel1Window") QScreen(0x55c24d074d20, name="Virtual-1")
+(0x7ffc8ae19d90) Debug: Systray started
+(0x7fffebab0ec0) Debug: Starting idlenesswatcher
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+[Notice] Started
+operation finished: 0x0
+delete MountOperation
+size of cached file QSize(800, 600) , requiredSize: QSize(1920, 1080)
+no cached wallpaper. generate a new one!
+(0x7ffcd9ece520) Warning: Icon theme "elementary" not found.
+(0x7ffcd9ece520) Warning: Icon theme "gnome" not found.
+size of original image QSize(2560, 1600)
+wallpaper cached saved to  "/home/fran/.cache/pcmanfm-qt/lxqt/wallpaper.cache"
+Properties constructor called
+TRANSLATIONS_DIR: Loading translation file "qterminal_en_US.qm" from dir /usr/share/qterminal/translations
+load success: false
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+QDir::exists: Empty or null file name
+Canot open file "/home/fran/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/Lubuntu"
+Trying to load translation file from dir "/usr/local/share"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/var/lib/snapd/desktop"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+default KB_LAYOUT_DIR:  "/usr/share/qtermwidget5/kb-layouts"
+loadAllColorSchemes
+Shell program: "/bin/bash"
+("/bin/bash")
+Trying to load translation file from dir "/usr/share/Lubuntu"
+Trying to load translation file from dir "/usr/local/share"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/var/lib/snapd/desktop"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+Shell program: "/bin/bash"
+("/bin/bash")
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+(0x7fff43ce5cb0) Debug: GSimpleAsyncResult: 0x55c1e3aa09e0
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication callback for  0x55c1e39fe000
+(0x7fff43ce5cb0) Warning: Icon theme "elementary" not found.
+(0x7fff43ce5cb0) Warning: Icon theme "gnome" not found.
+(0x7fff43ce5cb0) Debug: REQUEST
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+(0x7fff43ce5cb0) Debug: COMPLETED
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55c1e39fe000
+
+(process:1257): GLib-GObject-CRITICAL **: 18:39:49.687: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+(0x7fff43ce5cb0) Debug: GSimpleAsyncResult: 0x55c1e3aa0b30
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication callback for  0x55c1e39fe000
+(0x7fff43ce5cb0) Debug: REQUEST
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+(0x7fff43ce5cb0) Debug: COMPLETED
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55c1e39fe000
+
+(process:1257): GLib-GObject-CRITICAL **: 18:39:56.717: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+(0x7fff43ce5cb0) Debug: GSimpleAsyncResult: 0x55c1e3aa1030
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication callback for  0x55c1e39fe000
+(0x7fff43ce5cb0) Debug: REQUEST
+(0x7fff43ce5cb0) Debug: COMPLETED
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55c1e39fe000
+
+(process:1257): GLib-GObject-CRITICAL **: 18:40:06.887: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+pcmanfm-qt /home/fran
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+(0x7fff43ce5cb0) Debug: GSimpleAsyncResult: 0x55c1e3aa10a0
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication callback for  0x55c1e39fe000
+(0x7fff43ce5cb0) Debug: REQUEST
+(0x7fff43ce5cb0) Debug: COMPLETED
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55c1e39fe000
+
+(process:1257): GLib-GObject-CRITICAL **: 23:28:45.951: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+(0x7fff43ce5cb0) Debug: GSimpleAsyncResult: 0x55c1e3aa10a0
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication callback for  0x55c1e39fe000
+(0x7fff43ce5cb0) Debug: REQUEST
+(0x7fff43ce5cb0) Debug: COMPLETED
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55c1e39fe000
+
+(process:1257): GLib-GObject-CRITICAL **: 23:28:59.770: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication
+(0x7fff43ce5cb0) Debug: GSimpleAsyncResult: 0x55c1e3aa1260
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication callback for  0x55c1e39fe000
+(0x7fff43ce5cb0) Debug: REQUEST
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+(0x7fff43ce5cb0) Debug: COMPLETED
+(0x7fff43ce5cb0) Debug: Listener adapter polkit_qt_listener_initiate_authentication_finish
+(0x7fff43ce5cb0) Debug: polkit_qt_listener_initiate_authentication_finish callback for  0x55c1e39fe000
+
+(process:1257): GLib-GObject-CRITICAL **: 23:29:15.637: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffc8ae19d90) Debug: Unknown property margin-button
+(0x7ffe5b3f7180) Warning: Icon theme "elementary" not found.
+(0x7ffe5b3f7180) Warning: Icon theme "gnome" not found.
+(0x7ffec27b85d0) Debug: systemd: "CanPowerOff" = "yes"
+aboutToQuit
+[Notice] Stopped
+(0x7ffec27b85d0) Debug: systemd: "CanPowerOff" = "yes"
+Xsession: X session started for fran at Sun 30 Oct 2022 08:32:04 AM CET
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+localuser:fran being added to access control list
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-Lubuntu:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting DESKTOP_SESSION=Lubuntu
+dbus-update-activation-environment: setting PWD=/home/fran
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=
+dbus-update-activation-environment: setting LOGNAME=fran
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+dbus-update-activation-environment: setting HOME=/home/fran
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=fran
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1001
+dbus-update-activation-environment: setting TMOUT=600
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+(0x7ffd8908c3f0) Warning: QXcbConnection: XCB error: 148 (Unknown), sequence: 190, resource id: 0, major code: 140 (Unknown), minor code: 20
+(0x7ffe0188d170) Debug: New PolkitAgentListener  0x55c9745a3a00
+(0x7ffe0188d170) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7ffe0188d180) for  0x55c9745a3a00
+(0x7ffe0188d170) Warning: QXcbConnection: XCB error: 148 (Unknown), sequence: 191, resource id: 0, major code: 140 (Unknown), minor code: 20
+(0x7ffc1ff60130) Warning: QXcbConnection: XCB error: 148 (Unknown), sequence: 191, resource id: 0, major code: 140 (Unknown), minor code: 20
+isPrimaryInstance
+(0x7ffc4e722430) Warning: Icon theme "elementary" not found.
+(0x7ffc4e722430) Warning: Icon theme "gnome" not found.
+size of cached file QSize(1920, 1080) , requiredSize: QSize(800, 600)
+no cached wallpaper. generate a new one!
+size of original image QSize(2560, 1600)
+wallpaper cached saved to  "/home/fran/.cache/pcmanfm-qt/lxqt/wallpaper.cache"
+qt.qpa.xcb: QXcbConnection: XCB error: 148 (Unknown), sequence: 191, resource id: 0, major code: 140 (Unknown), minor code: 20
+(0x7ffc4e722430) Debug: XdgDesktopFile "/usr/share/applications/firefox.desktop" is not valid
+[Notice] Started
+(0x7fffe6b842d0) Warning: QXcbConnection: XCB error: 148 (Unknown), sequence: 191, resource id: 0, major code: 140 (Unknown), minor code: 20
+(0x7fff4faf5390) Warning: Icon theme "elementary" not found.
+(0x7fff4faf5390) Warning: Icon theme "gnome" not found.
+(0x7fff4faf5390) Debug: systemd: "CanHibernate" = "no"
+(0x7fff4faf5390) Warning: ** Dbus error **************************
+(0x7fff4faf5390) Warning: Error name  "org.freedesktop.DBus.Error.InvalidArgs"
+(0x7fff4faf5390) Warning: Error msg   "No such interface “org.freedesktop.DBus.Properties”"
+(0x7fff4faf5390) Warning: ****************************************
+(0x7fff4faf5390) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+(0x7fff4faf5390) Debug: systemd: "CanSuspend" = "yes"
+(0x7ffd8908c3f0) Debug: systemd: "CanReboot" = "yes"
+(0x7ffc4e722430) Debug: ()
+(0x7ffd8908c3f0) Debug: systemd: "CanPowerOff" = "yes"
+(0x7ffc4e722430) Debug: WinIdChange 2000008 handle QWidgetWindow(0x559eb65bf9f0, name="LXQtPanel panel1Window") QScreen(0x559eb6372810, name=":0.0")
+(0x7ffc4e722430) Debug: Systray started
+(0x7fff4faf5390) Warning: QXcbConnection: XCB error: 148 (Unknown), sequence: 191, resource id: 0, major code: 140 (Unknown), minor code: 20
+size of cached file QSize(800, 600) , requiredSize: QSize(1920, 1080)
+no cached wallpaper. generate a new one!
+(0x7ffc4e722430) Warning: QXcbConnection: XCB error: 148 (Unknown), sequence: 191, resource id: 0, major code: 140 (Unknown), minor code: 20
+(0x7ffe2d1e13e0) Debug: Starting idlenesswatcher
+size of original image QSize(2560, 1600)
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+wallpaper cached saved to  "/home/fran/.cache/pcmanfm-qt/lxqt/wallpaper.cache"
+(0x7ffc4e722430) Debug: Unknown property margin-button
+(0x7ffc4e722430) Debug: Unknown property margin-button
+(0x7ffc4e722430) Debug: Unknown property margin-button
+operation finished: 0x0
+delete MountOperation
+(0x7ffc1ff60130) Warning: Icon theme "elementary" not found.
+(0x7ffc1ff60130) Warning: Icon theme "gnome" not found.
+pcmanfm-qt computer:///
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+PlacesView::onEjectButtonClicked
+show unmount progress
+operation finished: 0x0
+delete MountOperation
+dropped dest: "Trash"
+drop on "Trash"
+size of cached file QSize(1920, 1080) , requiredSize: QSize(1920, 975)
+no cached wallpaper. generate a new one!
+size of original image QSize(2560, 1600)
+wallpaper cached saved to  "/home/fran/.cache/pcmanfm-qt/lxqt/wallpaper.cache"
+dropped dest: "Desktop"
+drop on "Desktop"
+Properties constructor called
+TRANSLATIONS_DIR: Loading translation file "qterminal_en_US.qm" from dir /usr/share/qterminal/translations
+load success: false
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+QDir::exists: Empty or null file name
+Canot open file "/home/fran/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/Lubuntu"
+Trying to load translation file from dir "/usr/local/share"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/var/lib/snapd/desktop"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+default KB_LAYOUT_DIR:  "/usr/share/qtermwidget5/kb-layouts"
+loadAllColorSchemes
+Shell program: "/bin/bash"
+("/bin/bash")
+(0x7ffdf182b3e0) Warning: Icon theme "elementary" not found.
+(0x7ffdf182b3e0) Warning: Icon theme "gnome" not found.
+(0x7ffd8908c3f0) Debug: systemd: "CanPowerOff" = "yes"
+aboutToQuit
+[Notice] Stopped
+(0x7ffd8908c3f0) Debug: systemd: "CanPowerOff" = "yes"
+Xsession: X session started for fran at Sun 30 Oct 2022 09:42:48 AM CET
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+localuser:fran being added to access control list
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-Lubuntu:/etc/xdg
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session1
+dbus-update-activation-environment: setting DESKTOP_SESSION=Lubuntu
+dbus-update-activation-environment: setting PWD=/home/fran
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=
+dbus-update-activation-environment: setting LOGNAME=fran
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1001/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting XAUTHORITY=/home/fran/.Xauthority
+dbus-update-activation-environment: setting HOME=/home/fran
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting USER=fran
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1001
+dbus-update-activation-environment: setting TMOUT=600
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+(0x7fffba056180) Debug: New PolkitAgentListener  0x56188fd78e00
+(0x7fffba056180) Debug: Adding new listener  PolkitQt1::Agent::Listener(0x7fffba056190) for  0x56188fd78e00
+isPrimaryInstance
+(0x7ffdc1089b30) Warning: Icon theme "elementary" not found.
+(0x7ffdc1089b30) Warning: Icon theme "gnome" not found.
+(0x7ffdc1089b30) Debug: XdgDesktopFile "/usr/share/applications/firefox.desktop" is not valid
+size of cached file QSize(1920, 975) , requiredSize: QSize(1920, 975)
+(0x7ffcc570f560) Warning: Icon theme "elementary" not found.
+(0x7ffcc570f560) Warning: Icon theme "gnome" not found.
+(0x7ffcc570f560) Debug: systemd: "CanHibernate" = "no"
+(0x7ffcc570f560) Warning: dbusGetProperty: QDBusInterface is invalid "org.freedesktop.UPower" "/org/freedesktop/UPower" "org.freedesktop.DBus.Properties" "CanHibernate"
+(0x7ffcc570f560) Warning: dbusCall: QDBusInterface is invalid "org.freedesktop.ConsoleKit" "/org/freedesktop/ConsoleKit/Manager" "org.freedesktop.ConsoleKit.Manager" "CanHibernate"
+(0x7ffcc570f560) Debug: systemd: "CanSuspend" = "yes"
+(0x7ffee65cf510) Debug: systemd: "CanReboot" = "yes"
+(0x7ffee65cf510) Debug: systemd: "CanPowerOff" = "yes"
+origin "/usr/share/lubuntu/wallpapers/lubuntu-default-wallpaper.png"
+(0x7ffdc1089b30) Debug: ()
+(0x7ffdc1089b30) Debug: WinIdChange 1800008 handle QWidgetWindow(0x5623062d4680, name="LXQtPanel panel1Window") QScreen(0x562306086c90, name="Virtual-1")
+(0x7ffdc1089b30) Debug: Systray started
+(0x7ffd76f9d910) Debug: Starting idlenesswatcher
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+(0x7ffdc1089b30) Debug: Unknown property margin-button
+(0x7ffdc1089b30) Debug: Unknown property margin-button
+(0x7ffdc1089b30) Debug: Unknown property margin-button
+[Notice] Started
+Properties constructor called
+TRANSLATIONS_DIR: Loading translation file "qterminal_en_US.qm" from dir /usr/share/qterminal/translations
+load success: false
+Icon theme "elementary" not found.
+Icon theme "gnome" not found.
+QDir::exists: Empty or null file name
+Canot open file "/home/fran/.config/qterminal.org/qterminal_bookmarks.xml"
+Trying to load translation file from dir "/usr/share/Lubuntu"
+Trying to load translation file from dir "/usr/local/share"
+Trying to load translation file from dir "/usr/share"
+Trying to load translation file from dir "/var/lib/snapd/desktop"
+Trying to load translation file from dir "/usr/share/qtermwidget5/translations"
+default KB_LAYOUT_DIR:  "/usr/share/qtermwidget5/kb-layouts"
+loadAllColorSchemes
+Shell program: "/bin/bash"
+("/bin/bash")
+(0x7ffe153a7d60) Warning: Icon theme "elementary" not found.
+(0x7ffe153a7d60) Warning: Icon theme "gnome" not found.
