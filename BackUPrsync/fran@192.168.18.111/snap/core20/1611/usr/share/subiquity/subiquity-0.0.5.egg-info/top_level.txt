@@ -1,3 +1,0 @@
-console_conf
-subiquity
-subiquitycore

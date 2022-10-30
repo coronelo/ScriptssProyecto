@@ -1,5 +1,0 @@
-# This is private data. Do not parse.
-OPER_STATE=routable
-CARRIER_STATE=carrier
-ADDRESS_STATE=routable
-DNS=8.8.8.8 8.8.4.4

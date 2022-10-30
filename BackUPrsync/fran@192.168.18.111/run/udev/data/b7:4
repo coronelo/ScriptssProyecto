@@ -1,6 +1,0 @@
-W:17
-I:1472360
-E:ID_FS_VERSION=4.0
-E:ID_FS_TYPE=squashfs
-E:ID_FS_USAGE=filesystem
-G:systemd

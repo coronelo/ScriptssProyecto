@@ -1,8 +1,0 @@
-# This is private data. Do not parse.
-WHAT=sleep
-MODE=delay
-UID=1001
-PID=1270
-WHO=LXQt Session
-WHY=Start screen locker before sleep.
-FIFO=/run/systemd/inhibit/4.ref

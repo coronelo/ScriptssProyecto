@@ -1,3 +1,0 @@
-<device DEVNO="0x0802" TIME="1667118913.316797" UUID="7c9b6dc3-9099-4c92-b61b-55b5bb5b777c" TYPE="ext4" PARTUUID="f78660f9-81e7-47a7-8e13-20e9fe6b087f">/dev/sda2</device>
-<device DEVNO="0x0803" TIME="1667118913.317934" UUID="krIODV-1l4B-08ej-QqQ1-SndF-Gz5W-RHHaJ1" TYPE="LVM2_member" PARTUUID="d1b4f1ad-74aa-428e-bbdc-3dd089c7ef14">/dev/sda3</device>
-<device DEVNO="0xfd00" TIME="1667118913.322139" PRI="45" UUID="0b1d9026-bab2-4fdb-8827-fb926dbd3b7b" TYPE="ext4">/dev/mapper/ubuntu--vg-ubuntu--lv</device>
