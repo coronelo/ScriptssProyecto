@@ -115,31 +115,31 @@ function trimString(){
     local -r string="${1}"
     sed 's,^[[:blank:]]*,,' <<< "${string}" | sed 's,[[:blank:]]*$,,'
 }
-printTable ";" "${blanco}${negrita}Tarea;Técnico;Documentación;Estado$reset
-Configurar RAID servidor;${verde}${negrita}${verde}${negrita}Javi$reset$blanco$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco$blanco
-Instalar Ubuntu servidor;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Instalar ssh;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Actualizar servidor;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Configuración fecha y hora;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Fijar IP servidor;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Configurar nombre del host;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Instalar GUI ligero;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Programar tarea apagado automático;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Activar usuario root;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Instalar virtualbox;${verde}${negrita}Javi$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Instalar Maquina ubuntu server;${verde}${negrita}Javi$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Instalar Maquina Windows server;${amarillo}${negrita}Fran$reset$blanco;;Pendiente
-Agregar 3 usuarios para los técnicos con permisos;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Configuración ssh para limitar tiempo de inactividad y máximo de usuarios simultáneos;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Configurar wake-on-lan;${amarillo}${negrita}Fran$reset$blanco;;Pendiente
-Crear imagen clonezilla;${verde}${negrita}Javi$reset$blanco;;Pendiente
-Configurar SSH para entorno gráfico;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Configuración del LVM;${verde}${negrita}Javi$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Caducidad de cuenta y contraseña en próximo login de usuarios;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Sistema de ficheros;Sin asignar;;Pendiente
-Script para backups;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Script para actualizar;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Script logo;${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;Pendiente
-neofetch(app para que nos muestre los datos de sistema);${amarillo}${negrita}Fran$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Instalación y configuración de xRDP;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;${verde}Terminada$blanco
-Crear grupo para tecnicos;${azul}${negrita}Lucia$reset$blanco;${cyan}${negrita}Documentación$reset$blanco;Pendiente$reset"
+printTable ";" "${blanco}${negrita}Tarea;Técnico;Estado$reset
+Configurar RAID servidor;${verde}${negrita}${verde}${negrita}Javi$reset$blanco$reset$blanco;${verde}Terminada$blanco$blanco
+Instalar Ubuntu servidor;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Instalar ssh;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Actualizar servidor;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Configuración fecha y hora;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Fijar IP servidor;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Configurar nombre del host;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Instalar GUI ligero;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Programar tarea apagado automático;${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Activar usuario root;${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Instalar virtualbox;${verde}${negrita}Javi$reset$blanco;${verde}Terminada$blanco
+Instalar Maquina ubuntu server;${verde}${negrita}Javi$reset$blanco;${verde}Terminada$blanco
+Instalar Maquina Windows server;${amarillo}${negrita}Fran$reset$blanco;Pendiente
+Agregar 3 usuarios para los técnicos con permisos;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Configuración ssh para limitar tiempo de inactividad y máximo de usuarios simultáneos;${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Configurar wake-on-lan;${amarillo}${negrita}Fran$reset$blanco;Pendiente
+Crear imagen clonezilla;${verde}${negrita}Javi$reset$blanco;Pendiente
+Configurar SSH para entorno gráfico;${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Configuración del LVM;${verde}${negrita}Javi$reset$blanco;${verde}Terminada$blanco
+Caducidad de cuenta y contraseña en próximo login de usuarios;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Sistema de ficheros;Sin asignar;Pendiente
+Script para backups;${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Script para actualizar;${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Script logo;${amarillo}${negrita}Fran$reset$blanco;Pendiente
+neofetch(app para que nos muestre los datos de sistema);${amarillo}${negrita}Fran$reset$blanco;${verde}Terminada$blanco
+Instalación y configuración de xRDP;${azul}${negrita}Lucia$reset$blanco;${verde}Terminada$blanco
+Crear grupo para tecnicos;${azul}${negrita}Lucia$reset$blanco;Pendiente$reset"
