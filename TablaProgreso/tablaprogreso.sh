@@ -1,7 +1,7 @@
 #!/bin/bash
 
- 	esc="" # si esto no funciona probar "^[" que es ctrl+v+ESC
- 	negro="${esc}[30m"
+    esc="" # si esto no funciona probar "^[" que es ctrl+v+ESC
+    negro="${esc}[30m"
     rojo="${esc}[31m"
     verde="${esc}[32m"
     amarillo="${esc}[33m"
